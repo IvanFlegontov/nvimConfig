@@ -1,0 +1,5 @@
+vim.keymap.set("n", "yyp", function()
+	local col = vim.fn.virtcol(".")
+	vim.cmd("normal! yyp")
+	vim.fn.cursor(vim.fn.line("."), col)
+end, { desc = "yyp but stay in same column" })

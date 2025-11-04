@@ -1,5 +1,5 @@
 require("frakt.remap")
 require("frakt.lazy")
 require("frakt.set")
+require("frakt.functions")
 --vim.lsp.enable('pyright')
-
